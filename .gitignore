@@ -1,0 +1,8 @@
+# Ignorar banco de dados e arquivos temporários
+*.db
+database.db
+__pycache__/
+*.pyc
+outputs/
+# Não ignore scripts
+!src/database.py
